@@ -11,8 +11,12 @@ you can use:
        git diff  :to exiam the changing information
        git log   :to look back changes in history
            you can use parameter"--pretty=oneline"to show information in oneline
-      git reset --hard HEARD^:to return last version
+       git reset --hard HEARD^:to return last version
            --hard:_waited to be added
+           HEARD^ is the parameter used to represent last version
+           HEARD~n represents lsat n version
+           you can use version number to replace HEARD^ to return to pointed version
+       git reflog:to look back every order
 __________________________________________________________________________________________________
 add files to a git repository:
 (under menus)
