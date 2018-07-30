@@ -25,3 +25,19 @@ add files to a git repository:
 "-m is used to add a statement
 "you can add more than one files at a time
 ___________________________________________________________________________________________________
+working directory and repository
+working directory is what you see in the computer
+repository has a menu call ".git" to storage your stage
+     'git add' add your changes to stage
+     'git commit' put in all files in stage to current branch
+____________________________________________________________________________________________________
+remove changes
+     git checkout --file:
+         it means remove all the changes in working directory which has not benn added to stage
+     git reset HEARD <file>:
+        it will remove all the changes in stage
+remove files
+     you can use:
+     git rm file
+     git commit -m"staement" to remove files in repository
+         
