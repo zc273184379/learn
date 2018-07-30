@@ -10,6 +10,9 @@ you can use:
        git status:to exiam the status of git repository
        git diff  :to exiam the changing information
        git log   :to look back changes in history
+           you can use parameter"--pretty=oneline"to show information in oneline
+      git reset --hard HEARD^:to return last version
+           --hard:_waited to be added
 __________________________________________________________________________________________________
 add files to a git repository:
 (under menus)
