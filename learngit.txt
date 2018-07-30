@@ -1,4 +1,9 @@
 Git is a version control system.
+Before initializing a git repository you should first use :
+git config --global user.email "you@example.com"
+git config --global user.name "youname"
+to collocate your account
+"if you only want to use your account under current directory,you don't need the parameter "--global"
 __________________________________________________________________________________________________
 you can use:
        git init  :to initialize a git repository
