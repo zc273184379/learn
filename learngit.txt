@@ -4,6 +4,8 @@ git config --global user.email "you@example.com"
 git config --global user.name "youname"
 to collocate your account
 "if you only want to use your account under current directory,you don't need the parameter "--global"
+
+git config --global color.ui true
 __________________________________________________________________________________________________
 you can use:
        git init  :to initialize a git repository
@@ -73,3 +75,13 @@ git stash:save work directory and index state WIP on branch
     git stash drop :delete stash
     git stash pop =git stash apply+git stash drop
     git stash apply stash@{num} :recover pointed stash
+————————————————————————————————————————————————————————————————————————————————————————————————————————
+tag
+git tag <name>:make a tag for the current branch
+git tag <name> <commitid>:make a tag for the pointed commit id
+git show <tagname>:show a tag information
+git tag -a <tagname> -m"satement"<commitid>:use -a -m to add a statement to a tag
+git tag -d <tagname>:delete a tag
+git push origin <tagname>:push a tag to remote repository
+git push origin :refs/tags/<tagname> :delete a tag in remote repository
+
