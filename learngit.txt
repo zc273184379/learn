@@ -40,4 +40,20 @@ remove files
      you can use:
      git rm file
      git commit -m"staement" to remove files in repository
-         
+____________________________________________________________________________________________________
+to learn more about remote repository you need:
+      1.locate a github account
+      2.create ssh key :
+        if there is no id_rsa.pub in the .ssh you need to order:
+        "ssh-keygen -t rsa -C"you@example.com""to create ssh key
+     3.then you need to add the content id_rsa.pub to ssh key in git hub
+add remote repository:
+   1.create a new repo
+   2.fill in repository name
+   3.click "create repository"
+   4.$git remote add origin git @~
+   5.$git push -u origin master
+   6.make some chanes in local repository
+   7$git push origin master
+"'-u' is the parameter to add content to a empty repostiroy
+"'origin' is the name of remote repository
