@@ -57,3 +57,11 @@ add remote repository:
    7$git push origin master
 "'-u' is the parameter to add content to a empty repostiroy
 "'origin' is the name of remote repository
+_____________________________________________________________________________________________________
+brach
+git branch name:create a branch called 'name'
+git checkout name:jump to 'name' branch
+git chechout -b name=git branch name+git checkout name
+git brach :list all braches and show current branch
+git merge name:merge 'name' branch to current branch
+git branch -d name:delete 'name' branch
