@@ -1,4 +1,4 @@
-Git is a version control system.
+Git is a distributed version control system.
 Before initializing a git repository you should first use :
 git config --global user.email "you@example.com"
 git config --global user.name "youname"
@@ -9,6 +9,7 @@ you can use:
        git init  :to initialize a git repository
        git status:to exiam the status of git repository
        git diff  :to exiam the changing information
+       git log   :to look back changes in history
 __________________________________________________________________________________________________
 add files to a git repository:
 (under menus)
