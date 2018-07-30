@@ -1,0 +1,14 @@
+Git is a version control system.
+__________________________________________________________________________________________________
+you can use:
+       git init  :to initialize a git repository
+       git status:to exiam the status of git repository
+       git diff  :to exiam the changing information
+__________________________________________________________________________________________________
+add files to a git repository:
+(under menus)
+    1.git add filename
+    2.git commit -m"statement"
+"-m is used to add a statement
+"you can add more than one files at a time
+___________________________________________________________________________________________________
